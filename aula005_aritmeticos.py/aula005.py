@@ -42,4 +42,10 @@ quociente = dividendo / divisor
 print('='*70)
 print('resultados')
 print('-'*70)
-print(f'A soma de {parcela_1} + {parcel_2}')
+print(f'A soma de {parcela_1} + {parcela_2} é: {soma}')
+print(f'A subtracao de {minuendo} - {subtraendo} é; {soma}')
+print(f'A multiplicacao de {multiplicando} x {multiplicador} é: {produto}')
+print(f'A divisao de {dividendo} + {divisor} é: {quociente}')
+
+# seguindo os passos arteriores, desenvolva o restante
+# acrescente a raiz quadrada e a raiz cúbica
