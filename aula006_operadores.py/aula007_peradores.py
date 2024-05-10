@@ -39,10 +39,11 @@ else:
     if a > b:
         resposta = f'{a} e maior que {b}'
     elif a > b:
-    else:
+
+    else
         resposta = f'o valores sao iguais; {a} = {b}'
         #saida
         print('-'*70)
-        print(resposta
+        print(resposta)
         print('-'*70)
         print()
