@@ -14,15 +14,15 @@ print(f"string original: {frase}")
 
 # fatiamento: acessando partes especificas da string
 # primeiro cinco caracteres
-primeiro_cinco = frases[:5]
-print(f"primeiros cinco caracteres: {primeiro_cinco}")
+primeiros_cinco = frase[:5]
+print(f"primeiros cinco caracteres: {primeiros_cinco}")
 
 # ultimos dez caracteres
 ultimos_dez = frase[-10:]
 print(f"ultimos dez caracteres: {ultimos_dez}")
 
 # do quarto ao decimo caractere
-quarto_ao_decimo = frase[3;10]
+quarto_ao_decimo = frase[3:10]
 print(f"do quarto ao decimo caractere: {quarto_ao_decimo}")
 
 # a cada dois caracteres
@@ -31,3 +31,5 @@ print(f'a cada dois caracteres: {a_cada_dois}')
 
 # invertendo a strig
 invertida = frase[::-1]
+print(f'string invertida: {invertida}')
+print()
