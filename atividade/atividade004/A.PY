@@ -10,3 +10,10 @@ import os
 
 os.system('cls')
 
+print('-'*70)
+print('fatiamento de sring')
+print('='*70)
+
+nome = "Daniel Alves da silva"
+
+nome[:5]
