@@ -1,7 +1,7 @@
 # curso de desenvolvimento de sistemas
 # turma 0152 
 # autor:Beatriz Victoria
-# data: 03/06/2024
+# data: 0'3/06/2024
 # atividade005
 # Faça um programa que imprima os valores no intervalo definidos pelo usuário.  
 # Defina 3 números que deverão ser ignorados, ou seja, que não serão impressos na tela.
