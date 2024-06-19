@@ -4,3 +4,6 @@
 # data: 12/06/2024
 # atividade006
 
+for i in range(1,9):
+      
+
