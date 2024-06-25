@@ -18,12 +18,13 @@ print('='*70)
 
 # iniciando um set com elementos  # fruts
 
-set1 = [banana, mango, apple, orange, stanberry, bluberry,]
-set2 = [mango, apple stranberry, ] # saida false
-set3 = [a, h, e] # saida false
+set1 = {"banana", "manga", "abacaxi", "laranja", "morango", "goiaba"}
+set2 = {"manga", "goiaba",  "uva"}
 
-# pedindo para o usuario entrar com as informações
- 
+print(set1.issubset(set2))
+print(set1 < set2)
+print(set1 <= set2) 
+print(set2.issubset(set1))
 
 
 
