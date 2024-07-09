@@ -16,7 +16,7 @@ print('-'*70)
 print('utilizando o issubset ')
 print('='*70)
 
-# iniciando um set com elementos  # fruts
+# iniciando um set com elementos  # frutas
 
 set1 = {"banana", "manga", "abacaxi", "laranja", "morango", "goiaba"}
 set2 = {"manga", "goiaba",  "uva"}
@@ -28,3 +28,4 @@ print(set2.issubset(set1))
 
 
 
+  
