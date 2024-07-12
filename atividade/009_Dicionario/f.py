@@ -30,3 +30,7 @@ for elemento in lista:
     for chave, valor in elemento.items():
         print(f'{chave}:{valor}', end='\n')
     print('='*70)
+    
+print('-'*70)
+print('fim do programa!')
+print()
