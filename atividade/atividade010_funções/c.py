@@ -17,18 +17,15 @@ nascimento = ''
 
 def cadastro(*lista_nomes):
     print(f'Empacoatados: {lista_nomes}')
-    for i in lista_nomes:
+    for i in lista_nomes: 
         print(f'Empacotado: {i}')
          
-dicionario = ['nome', 'matricula', 'data de nascimento']
-empacotar = dicionario_cadastro   # type: ignore
-dicionario_cadastro.append('nome completo {nome} :') # type: ignore # nome completo para ajudar a preenger o cadastro
-nascimento.insert('insira sua data de nascimento: ')
+dicionario = ['Nome', 'Matricula', 'nascimento']
+empacotar = cadastro 
+cadastro.append('nome completo: {nome}')  # corrir o erro
+nascimento.insert('insira sua data de nascimento: {nascimento}')
+matricula.insert('insira o numero da matricula: {matricula}')
 
-
-
-print('-'*70)
-print('Fim do cadastro!Volte sempre!')
+print('-*70')
+print('Final do programa!...')
 print()
-
-
