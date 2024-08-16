@@ -21,7 +21,7 @@ os.makedirs(pasta, exist_ok=True)
 arquivo = 'arquivos_cvs/gravacao/alunos.csv'
 
 # caminho completo do arquivo cvs
-caminho_arquivo = os.path.jonh(pasta, arquivo)
+caminho_arquivo = os.path.join(pasta, arquivo)
 
 # abre o arquivo 'arquivo' no modo de escrita('w')
 # se o arquivo não existir,ele será criado; se existir, será trucado (esvaziado)
@@ -32,3 +32,21 @@ with open(arquivo, 'w', newline='') as arquivo_csv:
     # campos = ["name", "telefone", "cidade"]: define a lista de nomes de campos
     # (cabeçalhos das colunas do cvs)
     campos = ['nome', 'telefone', 'cidade']
+    
+    # writer = csv.dictwriter(arquivo_csv, fieldnames=campos):
+    # cria um objeto dictwriter que usará 'arquivo_csv' para gravar os campos
+    # fieldnames define a ordem dos campos no arquivo csv
+    # delimiter=';': é o separador
+    escrever = csv.DictWriter(arquivo_csv, fieldnames=campos, delimiter=';')
+    
+    # writer.writeheader(): Grava a linha de cabeçalho no
+    # arquivo csv usando os nomes de campos definidos em fieldnames
+    escrever.writeheader()
+    
+    # writer.writerows(lista): Grava todos as linhas da lista no arquivo csv
+    # cada dicionario em 'lista' se torna uma linha no arquivo
+    escrever.writerows(lista)
+    
+os.system('cls')
+# Exibe uma mensagem indicando que o arquivo foi gravado com sucesso
+print(f'arquivo {arquivo} gravado com sucesso!')

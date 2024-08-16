@@ -17,14 +17,14 @@ with open(arquivo, 'r') as arquivo_cvs:
     for linha in leitura:
         lista.append(linha)
         
-        os.system('cls')
+os.system('cls')
 print('-'*70)
 print('nome\ttelefone\tcidade')
 print('='*70)
 # exibindo a lista resultante
-for resgistro in lista:
+for registro in lista:
     flag = 0
-    for k, v in registro.items(): # type: ignore
+    for k, v in registro.items():
         print(v, end='\t')
         flag += 1
         if flag == 3:
