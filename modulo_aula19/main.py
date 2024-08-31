@@ -1,6 +1,7 @@
 import os
 
 from pacote.modulo_somar import somar # type: ignore
+from pacote.modulo_somar import somar # type: ignore
 from pacote.subpacote.modulo_multiplicar import multiplicar as multi # type: ignore
 from pacote.modulo_divisao import dividir # type: ignore
 
