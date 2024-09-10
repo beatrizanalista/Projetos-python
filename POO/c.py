@@ -7,19 +7,25 @@
 import os
 
 
-class intervalo:
+class Intervalo:
     def __init__(self, inicio, fim ):
         self.inicio = inicio
         self.fim = fim
+    
+    def imprimir(self, inicio, fim):
+        pass
+    
+class Inverso:
+    def __init__(self, inicio, fim):
+        self.inicio = inicio
+        self.fim = fim
         
-
-
+    def Imprimir_Intervalo
 os.system('cls')
 
-for i in range(, 10, 0):
-    print('')
-    print({'c'})
-
-print('-*70')
+for i in range(10, 1, -1):
+    print(i)
+    
+print('-'*70)
 print('fim do programa!')
 print()
