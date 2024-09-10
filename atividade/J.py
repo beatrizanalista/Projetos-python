@@ -1,8 +1,4 @@
-# Curso de desenvolvimento de sistemas
-# turma 0152
-# Data: 18/04/2024
-# Nome: Beatriz victoria
-
+#
 # inports
 import os
 

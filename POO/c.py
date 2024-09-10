@@ -7,9 +7,16 @@
 import os
 
 
+class intervalo:
+    def __init__(self, inicio, fim ):
+        self.inicio = inicio
+        self.fim = fim
+        
+
+
 os.system('cls')
 
-for i in range(-1, 10, 0):
+for i in range(, 10, 0):
     print('')
     print({'c'})
 

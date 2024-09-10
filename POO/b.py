@@ -7,14 +7,32 @@
 import os
 
 
+class Intervalo:
+    def __init__(self, inicio, fim):
+        self.inicio = inicio
+        self.fim = fim
+        
+    def imprimir_intervalo(self, inicio, fim ):
+        pass
+    
+class Imprimir(Intervalo):
+    def __init__(self, inicio, fim):
+        self.inicio= inicio
+        self.fim= fim
+        
+    def imprimir_intervalo(self):
+        for i in range(self.inicio, self.fim + 1):
+            print( i, end=',')
+        print()
+        
 os.system('cls')
 
 inicio = int(input('qual o primeiro número que deseja ver: '))
 fim = int(input('qual o ultimo número que deseja ver: '))
 
-for i in range(inicio, fim):
-    print('')
-    print('{c}')
+intervalo = Imprimir(inicio, fim)
+
+intervalo.imprimir_intervalo()
 
 print('-'*70)
 print('fim do programa!')
