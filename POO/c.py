@@ -20,12 +20,19 @@ class Inverso:
         self.inicio = inicio
         self.fim = fim
         
-    def Imprimir_Intervalo
+    def Imprimir_Intervalo(self):
+        for i in range(self.inicio, self.fim, -1):
+            print(i, end= ', ') 
+        print()
+    
+        
 os.system('cls')
 
-for i in range(10, 1, -1):
-    print(i)
-    
+
+Intervalo = Inverso(10, 0)
+
+Intervalo.Imprimir_Intervalo()
+
 print('-'*70)
 print('fim do programa!')
 print()

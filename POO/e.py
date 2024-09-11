@@ -6,20 +6,45 @@
 
 import os
 
+
+class Soma:
+    def __init__(self, inicio, fim):
+        self.inicio = inicio
+        self.fim = fim
+        
+    def quantidade_pares(self, inicio, fim):
+        pass
+    
+
+class Intervalo(Soma):
+    def __init__(self, inicio, fim):
+        self.inicio = inicio
+        self.fim = fim
+        
+    def quantidade_pares(self):
+        quantidade = 0
+        for i in range(0, 100):
+            if i % 2 ==0:
+                print(i, end= ', ')  
+                quantidade = quantidade + 1
+        print()
+        print(f'A quantidade de números pares foi: {quantidade}')
+       
+
 os.system('cls')
 
-pares_numeros = ''
-soma = ()
+Soma = Intervalo(inicio=0, fim=100 + 1)
 
-for i in range(0, 100):
-    if c % 2 ==0:
-        pares_numeros +- 1
-        soma += c
-
+print('-'*70)
+print(f'inicio {Soma.inicio} até {Soma.fim} ')
 print()
-print(pares_numeros)
-print(soma)
+
+soma = Intervalo(0, 100)
+
+soma.quantidade_pares()
 
 print('-'*70)
 print('fim do programa! ')
 print()
+
+

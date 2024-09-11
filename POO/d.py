@@ -7,12 +7,39 @@
 import os
 
 
+class Impressao:
+    def __init__(self, inicio, fim ):
+        self.inicio = inicio
+        self.fim = fim
+        
+    def imprimir_pares(self, inicio, fim):
+        pass
+    
+    
+class Imprima(Impressao):
+    def __init__(self, inicio, fim):
+        self.inicio = inicio
+        self.fim = fim
+        
+    def imprimir_pares(self):
+        for i in range(0, 100):
+            if i % 2 ==0:
+                print(i, end= ', ')
+        print()
+
+
+
 os.system('cls')
 
-for i in range(0, 100):
-    if c % 2 ==0:
-        print('')
-        print({c})
+Impressao = Imprima(inicio=0, fim=100 + 1)
+
+print('-'*70)
+print(f'inicio {Impressao.inicio} até {Impressao.fim} ')
+print()
+
+impressao = Imprima(0, 100)
+
+impressao.imprimir_pares()
 
 print('-'*70)
 print('fim do programa! ')
