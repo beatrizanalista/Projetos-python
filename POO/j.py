@@ -9,6 +9,11 @@ import os
 os.system('cls')
 
 
+class Contagem:
+    def __init__(self, inicio, fim):
+        self.inicio = inicio
+        self.fim = fim
+        
 impar = 0
 soma = 0
 
