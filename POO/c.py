@@ -21,7 +21,7 @@ class Inverso:
         self.fim = fim
         
     def Imprimir_Intervalo(self):
-        for i in range(self.inicio, self.fim, -1):
+        for i in range(self.inicio, self.fim -1, -1):
             print(i, end= ', ') 
         print()
     

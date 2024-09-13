@@ -18,7 +18,7 @@ senha = str(input('digite a senha: '))
 
 while True:
     if usuario != usuario_fk or senha != senha_fk:
-        usuario = str(input('entre com o usuario:')).loweer()
+        usuario = str(input('entre com o usuario:')).lower()
         senha = str(input('entre com a senha:'))
     else:
         break
