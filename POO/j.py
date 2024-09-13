@@ -34,6 +34,22 @@ class intervalo(Contagem):
             soma  += b 
         print(b, end=  '-')  
 
+<<<<<<< HEAD
+=======
+class Contagem:
+    def __init__(self, inicio, fim):
+        self.inicio = inicio
+        self.fim = fim
+        
+impar = 0
+soma = 0
+
+for b in range(1, 100):
+    if not b % 2 ==0:
+    impar  += 1
+    soma  += b 
+print({b}  and= '-')
+>>>>>>> b14275db405aab2d44d747e0344dcd5d696a129a
 
 print('')
 print('impar')
